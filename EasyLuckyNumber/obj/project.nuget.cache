@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "HTp4xtY/V+hjAVNNrmMsBbdONx1XtMDeR4xVuCcf0Cq5JoBK+LGLBc7EhBkLddq1HUY/vDPNaqWctZLxrlFu4Q==",
+  "success": true,
+  "projectFilePath": "D:\\Github Clone Repositories\\EasyLuckyNumber\\EasyLuckyNumber\\EasyLuckyNumber.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FPTSHOP\\.nuget\\packages\\bitmiracle.libtiff.net\\2.4.649\\bitmiracle.libtiff.net.2.4.649.nupkg.sha512",
+    "C:\\Users\\FPTSHOP\\.nuget\\packages\\ironsoftware.system.drawing\\2023.7.1\\ironsoftware.system.drawing.2023.7.1.nupkg.sha512",
+    "C:\\Users\\FPTSHOP\\.nuget\\packages\\ironxl.excel\\2023.8.19\\ironxl.excel.2023.8.19.nupkg.sha512",
+    "C:\\Users\\FPTSHOP\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\FPTSHOP\\.nuget\\packages\\sixlabors.imagesharp\\3.0.0\\sixlabors.imagesharp.3.0.0.nupkg.sha512",
+    "C:\\Users\\FPTSHOP\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\FPTSHOP\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}

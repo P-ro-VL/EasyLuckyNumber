@@ -1,0 +1,18 @@
+﻿<Window x:Class="EasyLuckyNumber.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasyLuckyNumber"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Title="Easy Lucky Number" Width="1280" Height="720">
+    <Grid>
+        <Image x:Name="background" Stretch="Fill" Source="./assets/default_background.png"/>
+        <TextBlock x:Name="displayNumber" FontSize="200" Text="000" TextAlignment="Center" Foreground="White" 
+                   Margin="455,438,455,78"
+                   FontFamily="./assets/fonts/#Glitten All Caps"/>
+    </Grid>
+</Window>

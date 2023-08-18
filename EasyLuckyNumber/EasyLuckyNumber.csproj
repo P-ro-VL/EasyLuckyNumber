@@ -1,0 +1,98 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <Title>Easy Lucky Number</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\default_background.png" />
+    <None Remove="assets\file.png" />
+    <None Remove="assets\fonts\GLITTEN.ttf" />
+    <None Remove="assets\fonts\Nunito-Black.ttf" />
+    <None Remove="assets\fonts\Nunito-BlackItalic.ttf" />
+    <None Remove="assets\fonts\Nunito-Bold.ttf" />
+    <None Remove="assets\fonts\Nunito-BoldItalic.ttf" />
+    <None Remove="assets\fonts\Nunito-ExtraBold.ttf" />
+    <None Remove="assets\fonts\Nunito-ExtraBoldItalic.ttf" />
+    <None Remove="assets\fonts\Nunito-ExtraLight.ttf" />
+    <None Remove="assets\fonts\Nunito-ExtraLightItalic.ttf" />
+    <None Remove="assets\fonts\Nunito-Italic.ttf" />
+    <None Remove="assets\fonts\Nunito-Light.ttf" />
+    <None Remove="assets\fonts\Nunito-LightItalic.ttf" />
+    <None Remove="assets\fonts\Nunito-Medium.ttf" />
+    <None Remove="assets\fonts\Nunito-MediumItalic.ttf" />
+    <None Remove="assets\fonts\Nunito-Regular.ttf" />
+    <None Remove="assets\fonts\Nunito-SemiBold.ttf" />
+    <None Remove="assets\fonts\Nunito-SemiBoldItalic.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IronXL.Excel" Version="2023.8.19" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\default_background.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\file.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\fonts\GLITTEN.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\fonts\Nunito-Black.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\fonts\Nunito-BlackItalic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\fonts\Nunito-Bold.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\fonts\Nunito-BoldItalic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\fonts\Nunito-ExtraBold.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\fonts\Nunito-ExtraBoldItalic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\fonts\Nunito-ExtraLight.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\fonts\Nunito-ExtraLightItalic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\fonts\Nunito-Italic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\fonts\Nunito-Light.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\fonts\Nunito-LightItalic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\fonts\Nunito-Medium.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\fonts\Nunito-MediumItalic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\fonts\Nunito-Regular.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\fonts\Nunito-SemiBold.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\fonts\Nunito-SemiBoldItalic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
