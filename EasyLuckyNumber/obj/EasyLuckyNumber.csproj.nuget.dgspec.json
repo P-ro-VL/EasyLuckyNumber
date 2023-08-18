@@ -45,10 +45,6 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "dependencies": {
-            "IronXL.Excel": {
-              "target": "Package",
-              "version": "[2023.8.19, )"
-            },
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[7.0.0, )"

@@ -1,23 +1,21 @@
-﻿using IronXL;
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
-using System.Configuration;
-using System.Drawing;
 using System.Drawing.Text;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using FontFamily = System.Drawing.FontFamily;
+using Microsoft.Office.Interop.Excel;
+using System.Windows.Controls;
 
 namespace EasyLuckyNumber
 {
     /// <summary>
     /// Interaction logic for Settings.xaml
     /// </summary>
-    public partial class Settings : Window
+    public partial class Settings : System.Windows.Window
     {
         public static string dataPath = "";
         public static string backgroundURLPath = "";
@@ -43,6 +41,11 @@ namespace EasyLuckyNumber
             }
 
             fontFamilyInput.SelectedItem = fontFamily;
+            fontFamilyInput.SelectionChanged += (s, e) =>
+            {
+                ComboBox cb = s as ComboBox;
+                fontFamily = (string) cb.SelectedItem;
+            };
 
             dataFileButton.Click += (s, e) =>
             {
@@ -58,12 +61,15 @@ namespace EasyLuckyNumber
             {
                 fontSize = fontSizeInput.Text;
 
-                if(fontFamilyInput.SelectedItem != null)
+                if (fontFamily.Equals("") == false)
+                {
                     fontFamily = fontFamilyInput.Text;
+                    System.Windows.Media.FontFamily mfont = new System.Windows.Media.FontFamily(fontFamily);
+                    MainWindow.Instance.displayNumber.FontFamily = mfont;
+                }
 
                 MainWindow.Instance.displayNumber.FontSize = int.Parse(fontSize);
-                System.Windows.Media.FontFamily mfont = new System.Windows.Media.FontFamily(fontFamily);
-                MainWindow.Instance.displayNumber.FontFamily = mfont;
+                
 
                 Hide();
             };
@@ -110,10 +116,43 @@ namespace EasyLuckyNumber
 
                 try
                 {
-                    WorkBook workBook = WorkBook.Load(filePath);
-                    WorkSheet workSheet = workBook.WorkSheets[0];
-                    RangeColumn dataColumn = workSheet.GetColumn("A");
-                    List<int> data = dataColumn.Select(x => x.Int32Value).ToList();
+                    Microsoft.Office.Interop.Excel.Application xlApp;
+                    Microsoft.Office.Interop.Excel.Workbook xlWorkBook;
+                    Microsoft.Office.Interop.Excel.Worksheet xlWorkSheet;
+                    Microsoft.Office.Interop.Excel.Range range;
+
+                    string str;
+                    int rCnt;
+                    int cCnt;
+                    int rw = 0;
+                    int cl = 0;
+
+                    xlApp = new Microsoft.Office.Interop.Excel.Application();
+                    xlWorkBook = xlApp.Workbooks.Open(filePath, 0, true, 5, "", "", true, Microsoft.Office.Interop.Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0);
+                    xlWorkSheet = (Microsoft.Office.Interop.Excel.Worksheet)xlWorkBook.Worksheets.get_Item(1);
+
+                    range = xlWorkSheet.UsedRange;
+                    rw = range.Rows.Count;
+                    cl = range.Columns.Count;
+
+                    List<string> dataColumn = new List<string>();
+                    for (rCnt = 1; rCnt <= rw; rCnt++)
+                    {
+                        for (cCnt = 1; cCnt <= 1; cCnt++)
+                        {
+                            str = (string) (range.Cells[rCnt, cCnt] as Microsoft.Office.Interop.Excel.Range).Value2.ToString() + "";
+                            dataColumn.Add(str);
+                        }
+                    }
+
+                    xlWorkBook.Close(true, null, null);
+                    xlApp.Quit();
+
+                    Marshal.ReleaseComObject(xlWorkSheet);
+                    Marshal.ReleaseComObject(xlWorkBook);
+                    Marshal.ReleaseComObject(xlApp);
+
+                    List<int> data = dataColumn.Select(x => int.Parse(x)).ToList();
 
                     MainWindow.data = data;
 

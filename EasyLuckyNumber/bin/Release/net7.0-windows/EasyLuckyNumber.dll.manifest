@@ -55,31 +55,22 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="BitMiracle.LibTiff.NET.dll" size="647680">
+  <file name="EasyLuckyNumber.deps.json" size="1377">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>9saBS2UEpCQM232bYzrYe7tnI7bTTlb9GZJwInpFMbg=</dsig:DigestValue>
+      <dsig:DigestValue>RYQJ741tYi1PBRn7KjpL2Ibckpi2iWKYH5zURebXSc8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="EasyLuckyNumber.deps.json" size="4274">
+  <file name="EasyLuckyNumber.dll" size="3480536">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>rXM6f1kcdZvtbAuy9DYK8iZGt3UFn+C3QCrEeYYAJGs=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="EasyLuckyNumber.dll" size="3474904">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>10Gkinh59m32JSSgXW3tnZMif6UBW/lKEuVAu4u0Q80=</dsig:DigestValue>
+      <dsig:DigestValue>XNHsgHna+HqsjJ89bkup/jTFBQsE/ulu31gd/j7GSVc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="EasyLuckyNumber.exe" size="155096">
@@ -98,33 +89,6 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>DSp4MGmJyWjNc/SmtGLu8DcWOcu4eQJIAo4Sy6A1RFo=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="IronSoftware.Drawing.Common.dll" size="76840">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>k14V6X71i5rE0JofmjhzCNkNwKHoaAnzYquRXf7x5wQ=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="IronXL.dll" size="23777312">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>LebKn2r5eobtZFYl/fjLDUF1LujGlhRnoizLUts20VA=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="SixLabors.ImageSharp.dll" size="2026496">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>nZMOYCGe/1kVlsM+S8omAX9hnmm1v1ybLzio7P1NHMo=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

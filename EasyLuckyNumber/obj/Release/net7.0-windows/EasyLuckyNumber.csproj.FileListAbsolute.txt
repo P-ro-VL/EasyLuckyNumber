@@ -3,10 +3,6 @@ D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Release\net7.0-
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Release\net7.0-windows\EasyLuckyNumber.runtimeconfig.json
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Release\net7.0-windows\EasyLuckyNumber.dll
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Release\net7.0-windows\EasyLuckyNumber.pdb
-D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Release\net7.0-windows\BitMiracle.LibTiff.NET.dll
-D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Release\net7.0-windows\IronSoftware.Drawing.Common.dll
-D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Release\net7.0-windows\IronXL.dll
-D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Release\net7.0-windows\SixLabors.ImageSharp.dll
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Release\net7.0-windows\EasyLuckyNumber.csproj.AssemblyReference.cache
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Release\net7.0-windows\MainWindow.g.cs
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Release\net7.0-windows\Settings.g.cs
@@ -20,12 +16,13 @@ D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Release\net7.0-
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Release\net7.0-windows\EasyLuckyNumber.AssemblyInfoInputs.cache
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Release\net7.0-windows\EasyLuckyNumber.AssemblyInfo.cs
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Release\net7.0-windows\EasyLuckyNumber.csproj.CoreCompileInputs.cache
-D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Release\net7.0-windows\EasyLuckyNumber.csproj.CopyComplete
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Release\net7.0-windows\EasyLuckyNumber.dll
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Release\net7.0-windows\refint\EasyLuckyNumber.dll
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Release\net7.0-windows\EasyLuckyNumber.pdb
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Release\net7.0-windows\EasyLuckyNumber.genruntimeconfig.cache
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Release\net7.0-windows\ref\EasyLuckyNumber.dll
+D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Release\net7.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Release\net7.0-windows\EasyLuckyNumber.csproj.ResolveComReference.cache
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Release\net7.0-windows\EasyLuckyNumber.dll.manifest
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Release\net7.0-windows\EasyLuckyNumber.application
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Release\net7.0-windows\EasyLuckyNumber.dll.manifest

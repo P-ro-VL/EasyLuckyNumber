@@ -13,7 +13,4 @@
     <SourceRoot Include="C:\Users\FPTSHOP\.nuget\packages\" />
     <SourceRoot Include="D:\Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
-  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)sixlabors.imagesharp\3.0.0\build\SixLabors.ImageSharp.props" Condition="Exists('$(NuGetPackageRoot)sixlabors.imagesharp\3.0.0\build\SixLabors.ImageSharp.props')" />
-  </ImportGroup>
 </Project>
