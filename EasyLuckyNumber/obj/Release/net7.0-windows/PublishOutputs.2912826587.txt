@@ -3,7 +3,3 @@ D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Release\net7.0-
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Release\net7.0-windows\app.publish\EasyLuckyNumber.deps.json
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Release\net7.0-windows\app.publish\EasyLuckyNumber.runtimeconfig.json
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Release\net7.0-windows\app.publish\EasyLuckyNumber.pdb
-D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Release\net7.0-windows\app.publish\BitMiracle.LibTiff.NET.dll
-D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Release\net7.0-windows\app.publish\IronSoftware.Drawing.Common.dll
-D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Release\net7.0-windows\app.publish\IronXL.dll
-D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Release\net7.0-windows\app.publish\SixLabors.ImageSharp.dll
