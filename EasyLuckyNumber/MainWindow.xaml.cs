@@ -51,6 +51,10 @@ namespace EasyLuckyNumber
                     displayNumber.Text = "000";
                 }
             };
+
+            Closed += (s, e) => {
+                Application.Current.Shutdown();
+            };
         }
 
         private void spinning()

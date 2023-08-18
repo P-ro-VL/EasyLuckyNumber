@@ -64,13 +64,13 @@
       <dsig:DigestValue>RYQJ741tYi1PBRn7KjpL2Ibckpi2iWKYH5zURebXSc8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="EasyLuckyNumber.dll" size="3480536">
+  <file name="EasyLuckyNumber.dll" size="3481048">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>XNHsgHna+HqsjJ89bkup/jTFBQsE/ulu31gd/j7GSVc=</dsig:DigestValue>
+      <dsig:DigestValue>ZjxZEf65NAKgAVsCd0HfQUU4RkACbmyuoBQ2dRw8xSo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="EasyLuckyNumber.exe" size="155096">
