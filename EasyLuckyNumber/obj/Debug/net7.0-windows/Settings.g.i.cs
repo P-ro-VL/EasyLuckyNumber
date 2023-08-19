@@ -125,7 +125,7 @@ namespace EasyLuckyNumber {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EasyLuckyNumber;V1.0.0.0;component/settings.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EasyLuckyNumber;component/settings.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Settings.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

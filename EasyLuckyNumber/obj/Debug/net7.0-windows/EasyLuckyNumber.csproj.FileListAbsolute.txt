@@ -11,10 +11,6 @@ D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Debug\net7.0-wi
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Debug\net7.0-windows\EasyLuckyNumber.runtimeconfig.json
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Debug\net7.0-windows\EasyLuckyNumber.dll
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Debug\net7.0-windows\EasyLuckyNumber.pdb
-D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Debug\net7.0-windows\BitMiracle.LibTiff.NET.dll
-D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Debug\net7.0-windows\IronSoftware.Drawing.Common.dll
-D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Debug\net7.0-windows\IronXL.dll
-D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\bin\Debug\net7.0-windows\SixLabors.ImageSharp.dll
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Debug\net7.0-windows\MainWindow.baml
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Debug\net7.0-windows\Settings.baml
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Debug\net7.0-windows\EasyLuckyNumber.g.resources
@@ -22,7 +18,6 @@ D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Debug\net7.0-wi
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Debug\net7.0-windows\EasyLuckyNumber.AssemblyInfoInputs.cache
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Debug\net7.0-windows\EasyLuckyNumber.AssemblyInfo.cs
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Debug\net7.0-windows\EasyLuckyNumber.csproj.CoreCompileInputs.cache
-D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Debug\net7.0-windows\EasyLuckyNumber.csproj.CopyComplete
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Debug\net7.0-windows\EasyLuckyNumber.dll
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Debug\net7.0-windows\refint\EasyLuckyNumber.dll
 D:\Github Clone Repositories\EasyLuckyNumber\EasyLuckyNumber\obj\Debug\net7.0-windows\EasyLuckyNumber.pdb

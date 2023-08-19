@@ -68,7 +68,7 @@ namespace EasyLuckyNumber
             timer.Interval += TimeSpan.FromMilliseconds(100);
             timer.Tick += (s, e) =>
             {
-                if(t >= 3*1000)
+                if(t >= 5*1000)
                 {
                     displayNumber.Text = luckyNumber.ToString("D3");
                     data.Remove(luckyNumber);
